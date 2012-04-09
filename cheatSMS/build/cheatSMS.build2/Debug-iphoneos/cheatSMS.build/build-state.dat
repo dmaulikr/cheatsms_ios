@@ -1,0 +1,977 @@
+TcheatSMS
+v7
+r0
+t320611183.243478
+cCheck dependencies
+cCpResource build/Debug-iphoneos/cheatSMS.app/ResourceRules.plist /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Info.plist cheatSMS-Info.plist
+cCompileXIB /Volumes/HD2/cheatSMS/MainWindow.xib
+cCompileXIB /Volumes/HD2/cheatSMS/cheatSMSViewController.xib
+cCompileXIB /Volumes/HD2/cheatSMS/NewMessage.xib
+cCopyPNGFile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/icon.png icon.png
+cProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Messages.mom /Volumes/HD2/cheatSMS/Messages.xcdatamodel
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/main.o /Volumes/HD2/cheatSMS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSAppDelegate.o /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSViewController.o /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/NewMessageController.o /Volumes/HD2/cheatSMS/Classes/NewMessageController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPGrowingTextView.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPTextViewInternal.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/Messages-13B364919B918040.o /Volumes/HD2/cheatSMS/Classes/Messages.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS normal armv6
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/main.o /Volumes/HD2/cheatSMS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSAppDelegate.o /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSViewController.o /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/NewMessageController.o /Volumes/HD2/cheatSMS/Classes/NewMessageController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPGrowingTextView.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPTextViewInternal.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/Messages-13B364919B918040.o /Volumes/HD2/cheatSMS/Classes/Messages.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS normal armv7
+cCreateUniversalBinary /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS normal "armv6 armv7"
+cGenerateDSYMFile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app.dSYM /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS
+cProcessProductPackaging "/Users/whats/Library/MobileDevice/Provisioning Profiles/633AB7EE-270E-4BEF-8CF1-7AF07CD5AB82.mobileprovision" /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision
+cTouch /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+cProcessProductPackaging /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent
+cCodeSign /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC1107D00000000000C9AB0
+t1287721085
+s826032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004CC110720000000000000424
+t1287721074
+s1060
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC11CDC0000000000245580
+t1287724252
+s2381184
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC11CB30000000000000202
+t1287724211
+s514
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC11D1700000000000000CD
+t1287724311
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC11D2E0000000000112F80
+t1287724334
+s1126272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC10AB400000000000CE100
+t1287719604
+s844032
+
+N/Users/whats/Library/MobileDevice/Provisioning Profiles/633AB7EE-270E-4BEF-8CF1-7AF07CD5AB82.mobileprovision
+c000000004D6A650A0000000000001C19
+t1298818314
+s7193
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004BFF3B8900000000000C4C10
+t1275018121
+s805904
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004BFF3B830000000000000424
+t1275018115
+s1060
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004C047FB900000000002319F0
+t1275363257
+s2300400
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004C047F9B0000000000000202
+t1275363227
+s514
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFE083F00000000002F6980
+t1274939455
+s3107200
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFE082E000000000000046B
+t1274939438
+s1131
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004C04800C00000000000000CD
+t1275363340
+s205
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C04802700000000000FCB40
+t1275363367
+s1035072
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.dylib
+c000000004BFDFABB00000000000B4D20
+t1274935995
+s740640
+
+N/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.h
+c000000004D2A05C600000000000009DF
+t1294599622
+s2527
+i<UIKit/UIKit.h>
+
+N/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m
+c000000004D2A05C600000000000025FC
+t1294599622
+s9724
+i"HPGrowingTextView.h"
+i"HPTextViewInternal.h"
+
+N/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.h
+c000000004C2BB55500000000000000E0
+t1277932885
+s224
+i<UIKit/UIKit.h>
+
+N/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m
+c000000004C2BB5730000000000000364
+t1277932915
+s868
+i"HPTextViewInternal.h"
+
+N/Volumes/HD2/cheatSMS/Classes/Messages.h
+c000000004D46FDAD0000000000000191
+t1296498093
+s401
+i<CoreData/CoreData.h>
+
+N/Volumes/HD2/cheatSMS/Classes/Messages.m
+c000000004D46FDAE00000000000000FA
+t1296498094
+s250
+i"Messages.h"
+
+N/Volumes/HD2/cheatSMS/Classes/NewMessageController.h
+c000000004D45C9020000000000000306
+t1296419074
+s774
+i<UIKit/UIKit.h>
+i<AddressBook/AddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i<MessageUI/MessageUI.h>
+i"HPGrowingTextView.h"
+
+N/Volumes/HD2/cheatSMS/Classes/NewMessageController.m
+c000000004D697BB100000000000028BA
+t1298758577
+s10426
+i"NewMessageController.h"
+
+N/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.h
+c000000004D470263000000000000027C
+t1296499299
+s636
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m
+c000000004D4702630000000000000C9E
+t1296499299
+s3230
+i"cheatSMSAppDelegate.h"
+i"cheatSMSViewController.h"
+
+N/Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.h
+c000000004D46F37000000000000001E9
+t1296495472
+s489
+i<UIKit/UIKit.h>
+i"NewMessageController.h"
+
+N/Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m
+c000000004D6970E80000000000000ABC
+t1298755816
+s2748
+i"cheatSMSViewController.h"
+i"Messages.h"
+
+N/Volumes/HD2/cheatSMS/MainWindow.xib
+c000000004D2724980000000000004E35
+t1294410904
+s20021
+
+N/Volumes/HD2/cheatSMS/Messages.xcdatamodel
+c000000004D46FCCE0000000000000088
+t1296497870
+s136
+
+N/Volumes/HD2/cheatSMS/NewMessage.xib
+c000000004D69660F0000000000007D2F
+t1298753039
+s32047
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+t1298918351
+s476
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app.dSYM
+t1298918349
+s102
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Info.plist
+t1298918262
+s879
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/MainWindow.nib
+t1298918273
+s1125
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Messages.mom
+t1298918320
+s2565
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/NewMessage.nib
+t1298918300
+s2609
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/PkgInfo
+t1298918262
+s8
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/ResourceRules.plist
+t1298918263
+s485
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS
+t1298918348
+s133952
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMSViewController.nib
+t1298918287
+s2304
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision
+t1298818723
+s7193
+
+N/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/icon.png
+t1298918310
+s283575
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPGrowingTextView.o
+t1298918329
+s72100
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPTextViewInternal.o
+t1298918331
+s40328
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/Messages-13B364919B918040.o
+t1298918333
+s5472
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/NewMessageController.o
+t1298918327
+s70408
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS
+t1298918334
+s58576
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS.LinkFileList
+c000000004D6A66740000000000000324
+t1298818676
+s804
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSAppDelegate.o
+t1298918323
+s48520
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSViewController.o
+t1298918325
+s47080
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/main.o
+t1298918321
+s6452
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPGrowingTextView.o
+t1298918343
+s71164
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPTextViewInternal.o
+t1298918345
+s39900
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/Messages-13B364919B918040.o
+t1298918347
+s5472
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/NewMessageController.o
+t1298918341
+s69468
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS
+t1298918348
+s58208
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS.LinkFileList
+c000000004D6A66740000000000000324
+t1298818676
+s804
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSAppDelegate.o
+t1298918337
+s48436
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSViewController.o
+t1298918339
+s46916
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/main.o
+t1298918335
+s6436
+
+N/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent
+t1298918349
+s408
+
+N/Volumes/HD2/cheatSMS/cheatSMSViewController.xib
+c000000004D6980F100000000000080AF
+t1298759921
+s32943
+
+N/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch
+c000000004D27249800000000000000B9
+t1294410904
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/HD2/cheatSMS/icon.png
+c000000004D6BEAD80000000000045C57
+t1298918104
+s285783
+
+N/Volumes/HD2/cheatSMS/main.m
+c000000004D2724980000000000000164
+t1294410904
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch.gch
+t1298918315
+s9831984
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ampwqxzodyroesgllzrwcvwuhdnt/cheatSMS_Prefix.pch.gch
+t1298818703
+s10446552
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-bdkzplwqtnrfrigdvqztlmhpfnhd/cheatSMS_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch.gch
+t1298918319
+s10298928
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-efrclkjtrllcmsedxyflrflqqpfv/cheatSMS_Prefix.pch.gch
+t1298821156
+s10446552
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ehfttdzezerpshhaigcdrtwagqcd/cheatSMS_Prefix.pch.gch
+t1298818700
+s9983704
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-frndqgsycyuinieqsvpmobscjloc/cheatSMS_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-hktksuoobdoktfbpgjzjoouluoai/cheatSMS_Prefix.pch.gch
+t1298821153
+s9983704
+
+NcheatSMS-Info.plist
+c000000004D6A70120000000000000438
+t1298821138
+s1080
+
+Niphoneos4.2
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/CoreData.framework/CoreData
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000000000000000000000000000
+t2
+s0
+
+Niphoneos4.2/usr/lib/libsqlite3.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320611182#320611183#0(0"0(0#1#0"8609787776#0"0#
+
+CCodeSign /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+s320611149.404706
+e320611151.348096
+r1
+xCodeSign
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/cheatSMS.app320611149#320611151#0(0"0(0#0#55"/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app8607359616#630"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Albert Sellares Torra (2VB58YCDBF)" --resource-rules=/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/ResourceRules.plist --entitlements /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPGrowingTextView.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611127.677750
+e320611129.946785
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPGrowingTextView.o
+x/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m320611127#320611129#0(0"0(0#0#59"/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m8605480672#1649"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPGrowingTextView.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPTextViewInternal.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611129.947198
+e320611131.523884
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPTextViewInternal.o
+x/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m320611129#320611131#0(0"0(0#0#60"/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m8608363744#1651"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/HPTextViewInternal.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/Messages-13B364919B918040.o /Volumes/HD2/cheatSMS/Classes/Messages.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611131.524293
+e320611133.114035
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/Messages-13B364919B918040.o
+x/Volumes/HD2/cheatSMS/Classes/Messages.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Volumes/HD2/cheatSMS/Classes/Messages.m320611131#320611133#0(0"0(0#0#40"/Volumes/HD2/cheatSMS/Classes/Messages.m8606752992#1638"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/Messages.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/Messages-13B364919B918040.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/NewMessageController.o /Volumes/HD2/cheatSMS/Classes/NewMessageController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611125.307260
+e320611127.677357
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/NewMessageController.o
+x/Volumes/HD2/cheatSMS/Classes/NewMessageController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillShow:]':
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:294: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillHide:]':
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:318: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)
+lSLF07#2@60"Compile /Volumes/HD2/cheatSMS/Classes/NewMessageController.m320611125#320611127#0(766"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillShow:]':/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:294: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillHide:]':/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:318: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)2(22@204"'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)320611126#111#272#0(6@52"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m320451377#294#0#294#0#33"'*' is deprecated (declared at *)0(22@204"'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)320611126#494#272#0(6@52"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m320451377#318#0#318#0#33"'*' is deprecated (declared at *)0(0#0#52"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m8606799136#1645"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/NewMessageController.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/NewMessageController.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSAppDelegate.o /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611121.751083
+e320611123.292737
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSAppDelegate.o
+x/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m320611121#320611123#0(0"0(0#0#51"/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m8608567424#1643"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSAppDelegate.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSViewController.o /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611123.293138
+e320611125.306847
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSViewController.o
+x/Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m320611123#320611125#0(0"0(0#0#54"/Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m8608528704#1649"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMSViewController.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/main.o /Volumes/HD2/cheatSMS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611120.464098
+e320611121.750635
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/main.o
+x/Volumes/HD2/cheatSMS/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Compile /Volumes/HD2/cheatSMS/main.m320611120#320611121#0(0"0(0#0#28"/Volumes/HD2/cheatSMS/main.m8606704896#1605"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/main.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPGrowingTextView.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611141.955971
+e320611143.974264
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPGrowingTextView.o
+x/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m320611141#320611143#0(0"0(0#0#59"/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m8606481920#1649"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPGrowingTextView.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPGrowingTextView.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPTextViewInternal.o /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611143.974616
+e320611145.543578
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPTextViewInternal.o
+x/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m320611143#320611145#0(0"0(0#0#60"/Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m8608465184#1651"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/HPGrowing/HPTextViewInternal.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/HPTextViewInternal.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/Messages-13B364919B918040.o /Volumes/HD2/cheatSMS/Classes/Messages.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611145.543941
+e320611147.573113
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/Messages-13B364919B918040.o
+x/Volumes/HD2/cheatSMS/Classes/Messages.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Volumes/HD2/cheatSMS/Classes/Messages.m320611145#320611147#0(0"0(0#0#40"/Volumes/HD2/cheatSMS/Classes/Messages.m8606963040#1638"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/Messages.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/Messages-13B364919B918040.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/NewMessageController.o /Volumes/HD2/cheatSMS/Classes/NewMessageController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611139.902715
+e320611141.955531
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/NewMessageController.o
+x/Volumes/HD2/cheatSMS/Classes/NewMessageController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillShow:]':
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:294: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillHide:]':
+o/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:318: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)
+lSLF07#2@60"Compile /Volumes/HD2/cheatSMS/Classes/NewMessageController.m320611139#320611141#0(766"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillShow:]':/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:294: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)/Volumes/HD2/cheatSMS/Classes/NewMessageController.m: In function '-[NewMessageController keyboardWillHide:]':/Volumes/HD2/cheatSMS/Classes/NewMessageController.m:318: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)2(22@204"'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)320611141#111#272#0(6@52"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m320451377#294#0#294#0#33"'*' is deprecated (declared at *)0(22@204"'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)320611141#494#272#0(6@52"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m320451377#318#0#318#0#33"'*' is deprecated (declared at *)0(0#0#52"/Volumes/HD2/cheatSMS/Classes/NewMessageController.m8608038304#1645"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/NewMessageController.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/NewMessageController.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSAppDelegate.o /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611135.734938
+e320611137.942324
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSAppDelegate.o
+x/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m320611135#320611137#0(0"0(0#0#51"/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m8607962240#1643"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSAppDelegate.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSViewController.o /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611137.942750
+e320611139.902357
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSViewController.o
+x/Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m320611137#320611139#0(0"0(0#0#54"/Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m8608088224#1649"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/Classes/cheatSMSViewController.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMSViewController.o0#
+
+CCompileC build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/main.o /Volumes/HD2/cheatSMS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611134.225552
+e320611135.734265
+r1
+xCompileC
+xbuild/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/main.o
+x/Volumes/HD2/cheatSMS/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Compile /Volumes/HD2/cheatSMS/main.m320611134#320611135#0(0"0(0#0#28"/Volumes/HD2/cheatSMS/main.m8605423328#1605"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -include /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch -c /Volumes/HD2/cheatSMS/main.m -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Volumes/HD2/cheatSMS/MainWindow.xib
+s320611063.695329
+e320611074.367110
+r1
+xCompileXIB
+x/Volumes/HD2/cheatSMS/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib320611063#320611074#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#36"/Volumes/HD2/cheatSMS/MainWindow.xib8607880960#540"    cd /Volumes/HD2/cheatSMS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/MainWindow.nib /Volumes/HD2/cheatSMS/MainWindow.xib --sdk /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Volumes/HD2/cheatSMS/NewMessage.xib
+s320611088.161635
+e320611100.485554
+r1
+xCompileXIB
+x/Volumes/HD2/cheatSMS/NewMessage.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB NewMessage.xib320611088#320611100#0(420"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#36"/Volumes/HD2/cheatSMS/NewMessage.xib8608441024#540"    cd /Volumes/HD2/cheatSMS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/NewMessage.nib /Volumes/HD2/cheatSMS/NewMessage.xib --sdk /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Volumes/HD2/cheatSMS/cheatSMSViewController.xib
+s320611074.367567
+e320611088.161294
+r1
+xCompileXIB
+x/Volumes/HD2/cheatSMS/cheatSMSViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB cheatSMSViewController.xib320611074#320611088#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Volumes/HD2/cheatSMS/cheatSMSViewController.xib8607549504#564"    cd /Volumes/HD2/cheatSMS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMSViewController.nib /Volumes/HD2/cheatSMS/cheatSMSViewController.xib --sdk /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/icon.png icon.png
+s320611100.486148
+e320611110.138479
+r1
+xCopyPNGFile
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/icon.png
+xicon.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/cheatSMS.app/icon.png icon.png320611100#320611110#0(0"0(0#0#30"/Volumes/HD2/cheatSMS/icon.png8607532704#554"    cd /Volumes/HD2/cheatSMS    setenv COPY_COMMAND /Volumes/HD2/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/HD2/cheatSMS/icon.png /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/icon.png0#
+
+CCpResource build/Debug-iphoneos/cheatSMS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s320511476.323451
+e320511476.850044
+r1
+xCpResource
+xbuild/Debug-iphoneos/cheatSMS.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist320511476#320511477#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist3419159298929816064#461"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app0#
+
+CCpResource build/Debug-iphoneos/cheatSMS.app/ResourceRules.plist /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s320611061.603378
+e320611063.694709
+r1
+xCpResource
+xbuild/Debug-iphoneos/cheatSMS.app/ResourceRules.plist
+x/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@106"Copy /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist320611061#320611063#0(0"0(0#0#101"/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8531300039613640704#495"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app0#
+
+CCreateUniversalBinary /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS normal "armv6 armv7"
+s320611148.495065
+e320611148.867200
+r1
+xCreateUniversalBinary
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/cheatSMS.app/cheatSMS normal "armv6 armv7"320611148#320611148#0(0"0(0#0#33"/Volumes/HD2/cheatSMS/armv6 armv78608464896#482"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS -output /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS0#
+
+CDataModelCompile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Messages.mom /Volumes/HD2/cheatSMS/Messages.xcdatamodel
+s320611119.951515
+e320611120.463668
+r1
+xDataModelCompile
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Messages.mom
+x/Volumes/HD2/cheatSMS/Messages.xcdatamodel
+lSLF07#2@50"Compile /Volumes/HD2/cheatSMS/Messages.xcdatamodel320611119#320611120#0(0"0(0#0#42"/Volumes/HD2/cheatSMS/Messages.xcdatamodel8607701152#329"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/usr/bin/momc /Volumes/HD2/cheatSMS/Messages.xcdatamodel /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Messages.mom0#
+
+CGenerateDSYMFile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app.dSYM /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS
+s320611148.867346
+e320611149.323419
+r1
+xGenerateDSYMFile
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app.dSYM
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/cheatSMS.app.dSYM build/Debug-iphoneos/cheatSMS.app/cheatSMS320611148#320611149#0(0"0(0#0#64"/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS8608267424#350"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/usr/bin/dsymutil /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/cheatSMS -o /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app.dSYM0#
+
+CLd /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS normal armv6
+s320611133.114379
+e320611134.225434
+r1
+xLd
+x/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS
+xnormal
+xarmv6
+lSLF07#2@107"Link /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS320611133#320611134#0(0"0(0#0#0"8605169792#927"    cd /Volumes/HD2/cheatSMS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Volumes/HD2/cheatSMS/build/Debug-iphoneos -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -filelist /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -lsqlite3 -framework MessageUI -framework CoreData -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv6/cheatSMS0#
+
+CLd /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS normal armv7
+s320611147.574327
+e320611148.494935
+r1
+xLd
+x/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS
+xnormal
+xarmv7
+lSLF07#2@107"Link /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS320611147#320611148#0(0"0(0#0#0"8607275232#927"    cd /Volumes/HD2/cheatSMS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Volumes/HD2/cheatSMS/build/Debug-iphoneos -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -filelist /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -lsqlite3 -framework MessageUI -framework CoreData -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/Objects-normal/armv7/cheatSMS0#
+
+CProcessInfoPlistFile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Info.plist cheatSMS-Info.plist
+s320611062.669570
+e320611062.988275
+r1
+xProcessInfoPlistFile
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Info.plist
+xcheatSMS-Info.plist
+lSLF07#2@27"Process cheatSMS-Info.plist320611062#320611062#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS-Info.plist8607430656#522"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility cheatSMS-Info.plist -genpkginfo /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/ResourceRules.plist -o /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/Info.plist0#
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320611110.139839
+e320611115.347631
+r1
+xProcessPCH
+x/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch.gch
+xcheatSMS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile cheatSMS_Prefix.pch320611110#320611115#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch8605515392#1519"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -c /Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch -o /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-aczxdngulfdixhbtirxuugrwrxxm/cheatSMS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ampwqxzodyroesgllzrwcvwuhdnt/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320511500.910815
+e320511503.622928
+r1
+xProcessPCH
+x/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ampwqxzodyroesgllzrwcvwuhdnt/cheatSMS_Prefix.pch.gch
+xcheatSMS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile cheatSMS_Prefix.pch320511500#320511503#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch8611514432#1471"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -c /Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch -o /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ampwqxzodyroesgllzrwcvwuhdnt/cheatSMS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-bdkzplwqtnrfrigdvqztlmhpfnhd/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320611115.348172
+e320611119.950820
+r1
+xProcessPCH
+x/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch.gch
+xcheatSMS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile cheatSMS_Prefix.pch320611115#320611119#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch8599978784#1519"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -c /Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch -o /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-duoifkbgkmxiaverbhurifkuivxw/cheatSMS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-efrclkjtrllcmsedxyflrflqqpfv/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320513953.854062
+e320513956.918514
+r1
+xProcessPCH
+x/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-efrclkjtrllcmsedxyflrflqqpfv/cheatSMS_Prefix.pch.gch
+xcheatSMS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile cheatSMS_Prefix.pch320513953#320513956#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch8607698080#1471"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv7 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -c /Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch -o /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-efrclkjtrllcmsedxyflrflqqpfv/cheatSMS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ehfttdzezerpshhaigcdrtwagqcd/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320511496.446380
+e320511500.909536
+r1
+xProcessPCH
+x/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ehfttdzezerpshhaigcdrtwagqcd/cheatSMS_Prefix.pch.gch
+xcheatSMS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile cheatSMS_Prefix.pch320511496#320511500#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch8611461536#1471"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -c /Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch -o /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-ehfttdzezerpshhaigcdrtwagqcd/cheatSMS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-frndqgsycyuinieqsvpmobscjloc/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-hktksuoobdoktfbpgjzjoouluoai/cheatSMS_Prefix.pch.gch cheatSMS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320513950.743757
+e320513953.853659
+r1
+xProcessPCH
+x/var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-hktksuoobdoktfbpgjzjoouluoai/cheatSMS_Prefix.pch.gch
+xcheatSMS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile cheatSMS_Prefix.pch320513950#320513953#0(0"0(0#0#41"/Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch8615492704#1471"    cd /Volumes/HD2/cheatSMS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-generated-files.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-own-target-headers.hmap -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-all-target-headers.hmap -iquote /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS-project-headers.hmap -F/Volumes/HD2/cheatSMS/build/Debug-iphoneos -I/Volumes/HD2/cheatSMS/build/Debug-iphoneos/include -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources/armv6 -I/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/DerivedSources -c /Volumes/HD2/cheatSMS/cheatSMS_Prefix.pch -o /var/folders/aB/aBhTR7XzFZeYJgbrBlBuE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cheatSMS_Prefix-hktksuoobdoktfbpgjzjoouluoai/cheatSMS_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/whats/Library/MobileDevice/Provisioning Profiles/633AB7EE-270E-4BEF-8CF1-7AF07CD5AB82.mobileprovision" /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision
+s320511523.231449
+e320511523.234662
+r1
+xProcessProductPackaging
+x/Users/whats/Library/MobileDevice/Provisioning Profiles/633AB7EE-270E-4BEF-8CF1-7AF07CD5AB82.mobileprovision
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/whats/Library/MobileDevice/Provisioning Profiles/633AB7EE-270E-4BEF-8CF1-7AF07CD5AB82.mobileprovision" build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision320511523#320511523#0(0"0(0#0#80"/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision8609356032#390"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/whats/Library/MobileDevice/Provisioning Profiles/633AB7EE-270E-4BEF-8CF1-7AF07CD5AB82.mobileprovision" -o /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent
+s320513976.713869
+e320513976.717242
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent320513976#320513976#0(0"0(0#0#87"/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent8611318752#401"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent0#
+
+CProcessProductPackaging /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent
+s320611149.389120
+e320611149.404615
+r1
+xProcessProductPackaging
+x/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent
+lSLF07#2@190"ProcessProductPackaging /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent320611149#320611149#0(0"0(0#0#87"/Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent8607886720#437"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/HD2/cheatSMS/build/cheatSMS.build/Debug-iphoneos/cheatSMS.build/cheatSMS.xcent0#
+
+CTouch /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+s320611149.323972
+e320611149.388881
+r1
+xTouch
+x/Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app
+lSLF07#2@61"Touch /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app320611149#320611149#0(0"0(0#0#0"8606152224#255"    cd /Volumes/HD2/cheatSMS    setenv PATH "/Volumes/HD2/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/HD2/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/HD2/cheatSMS/build/Debug-iphoneos/cheatSMS.app0#
+

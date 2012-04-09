@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>MainWindow.nib</key>
+		<data>
+		ZfYqW0IyaiZxdi603Dek9nGVa+8=
+		</data>
+		<key>Messages.mom</key>
+		<data>
+		WRwh8Zw7NCkS21WZRReGGybmj98=
+		</data>
+		<key>NewMessage.nib</key>
+		<data>
+		fJiFAeLwHPe/KhphdZzYPEaZao0=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>cheatSMSViewController.nib</key>
+		<data>
+		0VKmW4lDBstM/tMqXTyHZhKOgrw=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		9lzBc/UNm71eRwOJqh7i4+sR9Q4=
+		</data>
+		<key>icon.png</key>
+		<data>
+		i6iYQvmz0LcmjTnfO3rQLG4ASek=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

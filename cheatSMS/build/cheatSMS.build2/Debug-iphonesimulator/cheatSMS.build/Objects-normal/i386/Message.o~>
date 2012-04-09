@@ -1,0 +1,6 @@
+In file included from /Volumes/HD2/cheatSMS/Classes/Message.m:9:
+/Volumes/HD2/cheatSMS/Classes/Message.h:9:24: error: Cocoa/Cocoa.h: No such file or directory
+/Volumes/HD2/cheatSMS/Classes/Message.m:14: error: no declaration of property 'mFrom' found in the interface
+/Volumes/HD2/cheatSMS/Classes/Message.m:15: error: no declaration of property 'mTo' found in the interface
+/Volumes/HD2/cheatSMS/Classes/Message.m:16: error: no declaration of property 'mContent' found in the interface
+/Volumes/HD2/cheatSMS/Classes/Message.m:17: error: no declaration of property 'mDate' found in the interface

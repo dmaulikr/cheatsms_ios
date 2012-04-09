@@ -1,0 +1,140 @@
+TLocations
+v7
+r1
+cCheck dependencies
+
+N/Volumes/HD2/Locations/ReadMe.txt
+c000000004C25406F000000000000063F
+t1277509743
+s1599
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/Icon-72.png
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/Icon-Small-50.png
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/Icon-Small.png
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/Icon-Small@2x.png
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/Icon@2x.png
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/ReadMe.txt
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Resources/iTunesArtwork
+t2
+s0
+
+N/Volumes/HD2/Locations/en.lproj/MainWindow.xib
+c000000004C20FFAC0000000000001ED7
+t1277231020
+s7895
+
+N/Volumes/HD2/Locations/images/Icon-72.png
+c000000004C20FFAC0000000000000427
+t1277231020
+s1063
+
+N/Volumes/HD2/Locations/images/Icon-Small-50.png
+c000000004C20FFAC00000000000003E0
+t1277231020
+s992
+
+N/Volumes/HD2/Locations/images/Icon-Small.png
+c000000004C20FFAC0000000000000396
+t1277231020
+s918
+
+N/Volumes/HD2/Locations/images/Icon-Small@2x.png
+c000000004C20FFAC00000000000003F2
+t1277231020
+s1010
+
+N/Volumes/HD2/Locations/images/Icon.png
+c000000004C20FFAC00000000000003EF
+t1277231020
+s1007
+
+N/Volumes/HD2/Locations/images/Icon@2x.png
+c000000004C20FFAC00000000000004E4
+t1277231020
+s1252
+
+N/Volumes/HD2/Locations/images/iTunesArtwork
+c000000004C25406F0000000000001444
+t1277509743
+s5188
+
+NInfo.plist
+c000000004C25406F0000000000000454
+t1277509743
+s1108
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318177392#318177392#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.0'1(4@58"error: There is no SDK with the name or path 'iphoneos4.0'318177392#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Volumes/HD2/Locations/en.lproj/MainWindow.xib
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/Icon-72.png images/Icon-72.png
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/Icon-Small-50.png images/Icon-Small-50.png
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/Icon-Small.png images/Icon-Small.png
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/Icon-Small@2x.png images/Icon-Small@2x.png
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/Icon.png images/Icon.png
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/Icon@2x.png images/Icon@2x.png
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/ReadMe.txt ReadMe.txt
+r0
+
+CCpResource build/Debug/Locations.app/Contents/Resources/iTunesArtwork images/iTunesArtwork
+r0
+
+CProcessInfoPlistFile /Volumes/HD2/Locations/build/Debug/Locations.app/Contents/Info.plist Info.plist
+r0
+
+CTouch /Volumes/HD2/Locations/build/Debug/Locations.app
+r0
+

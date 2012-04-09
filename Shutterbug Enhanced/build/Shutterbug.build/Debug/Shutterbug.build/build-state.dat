@@ -1,0 +1,39 @@
+TShutterbug
+v7
+r1
+
+N/Volumes/HD2/Shutterbug Enhanced/MainWindow.xib
+c000000004CCA0DD300000000000021D7
+t1288310227
+s8663
+
+N/Volumes/HD2/Shutterbug Enhanced/build/Debug/Shutterbug.app
+t2
+s0
+
+N/Volumes/HD2/Shutterbug Enhanced/build/Debug/Shutterbug.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/HD2/Shutterbug Enhanced/build/Debug/Shutterbug.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/HD2/Shutterbug Enhanced/build/Debug/Shutterbug.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+NShutterbug-Info.plist
+c000000004CCA0DD3000000000000038D
+t1288310227
+s909
+
+CCompileXIB "/Volumes/HD2/Shutterbug Enhanced/MainWindow.xib"
+r0
+
+CProcessInfoPlistFile "/Volumes/HD2/Shutterbug Enhanced/build/Debug/Shutterbug.app/Contents/Info.plist" Shutterbug-Info.plist
+r0
+
+CTouch "/Volumes/HD2/Shutterbug Enhanced/build/Debug/Shutterbug.app"
+r0
+

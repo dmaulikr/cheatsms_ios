@@ -1,0 +1,2 @@
+/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m:101: warning: property 'managedObjectContext' requires method '-managedObjectContext' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Volumes/HD2/cheatSMS/Classes/cheatSMSAppDelegate.m:101: warning: property 'managedObjectContext' requires the method 'setManagedObjectContext:' to be defined - use @synthesize, @dynamic or provide a method implementation

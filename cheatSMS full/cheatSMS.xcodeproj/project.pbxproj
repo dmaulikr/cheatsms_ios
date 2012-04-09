@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* cheatSMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* cheatSMSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* cheatSMSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* cheatSMSViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* cheatSMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* cheatSMSViewController.m */; };
+		5E85817512F5D385000B5833 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E85817412F5D385000B5833 /* AddressBook.framework */; };
+		5E85817912F5D38C000B5833 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E85817812F5D38C000B5833 /* AddressBookUI.framework */; };
+		5E85BFD512D769FA002159D1 /* NewMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E85BFD412D769FA002159D1 /* NewMessageController.m */; };
+		5E85BFDD12D76B2D002159D1 /* NewMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E85BFDC12D76B2D002159D1 /* NewMessage.xib */; };
+		5E86BFEA12DA0CD800733F62 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E86BFE912DA0CD800733F62 /* icon.png */; };
+		5E89246412F72409000C5367 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E89246312F72409000C5367 /* CoreData.framework */; };
+		5E89246F12F72486000C5367 /* Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E89246E12F72486000C5367 /* Messages.m */; };
+		5E8924CE12F72D40000C5367 /* Messages.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 5E8924CD12F72D40000C5367 /* Messages.xcdatamodel */; };
+		5ECD1CED12F5FA55002F1219 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECD1CEC12F5FA55002F1219 /* libsqlite3.dylib */; };
+		5ECD1CF912F5FF08002F1219 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECD1CF812F5FF08002F1219 /* MessageUI.framework */; };
+		5EEC3F1012DA244F00980774 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC3F0D12DA244F00980774 /* HPGrowingTextView.m */; };
+		5EEC3F1112DA244F00980774 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC3F0F12DA244F00980774 /* HPTextViewInternal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* cheatSMSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cheatSMSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* cheatSMSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cheatSMSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* cheatSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cheatSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* cheatSMSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cheatSMSViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* cheatSMSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cheatSMSViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* cheatSMSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cheatSMSViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* cheatSMS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cheatSMS_Prefix.pch; sourceTree = "<group>"; };
+		5E85817412F5D385000B5833 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5E85817812F5D38C000B5833 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		5E85BFD312D769FA002159D1 /* NewMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMessageController.h; sourceTree = "<group>"; };
+		5E85BFD412D769FA002159D1 /* NewMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMessageController.m; sourceTree = "<group>"; };
+		5E85BFDC12D76B2D002159D1 /* NewMessage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewMessage.xib; sourceTree = "<group>"; };
+		5E86BFE912DA0CD800733F62 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5E89246312F72409000C5367 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5E89246D12F72486000C5367 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
+		5E89246E12F72486000C5367 /* Messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Messages.m; sourceTree = "<group>"; };
+		5E8924CD12F72D40000C5367 /* Messages.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Messages.xcdatamodel; sourceTree = "<group>"; };
+		5ECD1CEC12F5FA55002F1219 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5ECD1CF812F5FF08002F1219 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5EEC3F0C12DA244F00980774 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+		5EEC3F0D12DA244F00980774 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		5EEC3F0E12DA244F00980774 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		5EEC3F0F12DA244F00980774 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* cheatSMS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cheatSMS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				5E85817512F5D385000B5833 /* AddressBook.framework in Frameworks */,
+				5E85817912F5D38C000B5833 /* AddressBookUI.framework in Frameworks */,
+				5ECD1CED12F5FA55002F1219 /* libsqlite3.dylib in Frameworks */,
+				5ECD1CF912F5FF08002F1219 /* MessageUI.framework in Frameworks */,
+				5E89246412F72409000C5367 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC3F0B12DA244F00980774 /* HPGrowing */,
+				1D3623240D0F684500981E51 /* cheatSMSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* cheatSMSAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* cheatSMSViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* cheatSMSViewController.m */,
+				5E85BFD312D769FA002159D1 /* NewMessageController.h */,
+				5E85BFD412D769FA002159D1 /* NewMessageController.m */,
+				5E89246D12F72486000C5367 /* Messages.h */,
+				5E89246E12F72486000C5367 /* Messages.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* cheatSMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* cheatSMS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E86BFE912DA0CD800733F62 /* icon.png */,
+				2899E5210DE3E06400AC0155 /* cheatSMSViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* cheatSMS-Info.plist */,
+				5E85BFDC12D76B2D002159D1 /* NewMessage.xib */,
+				5E8924CD12F72D40000C5367 /* Messages.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				5E85817412F5D385000B5833 /* AddressBook.framework */,
+				5E85817812F5D38C000B5833 /* AddressBookUI.framework */,
+				5ECD1CEC12F5FA55002F1219 /* libsqlite3.dylib */,
+				5ECD1CF812F5FF08002F1219 /* MessageUI.framework */,
+				5E89246312F72409000C5367 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EEC3F0B12DA244F00980774 /* HPGrowing */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC3F0C12DA244F00980774 /* HPGrowingTextView.h */,
+				5EEC3F0D12DA244F00980774 /* HPGrowingTextView.m */,
+				5EEC3F0E12DA244F00980774 /* HPTextViewInternal.h */,
+				5EEC3F0F12DA244F00980774 /* HPTextViewInternal.m */,
+			);
+			path = HPGrowing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* cheatSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "cheatSMS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cheatSMS;
+			productName = cheatSMS;
+			productReference = 1D6058910D05DD3D006BFB54 /* cheatSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cheatSMS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* cheatSMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* cheatSMSViewController.xib in Resources */,
+				5E85BFDD12D76B2D002159D1 /* NewMessage.xib in Resources */,
+				5E86BFEA12DA0CD800733F62 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* cheatSMSAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* cheatSMSViewController.m in Sources */,
+				5E85BFD512D769FA002159D1 /* NewMessageController.m in Sources */,
+				5EEC3F1012DA244F00980774 /* HPGrowingTextView.m in Sources */,
+				5EEC3F1112DA244F00980774 /* HPTextViewInternal.m in Sources */,
+				5E89246F12F72486000C5367 /* Messages.m in Sources */,
+				5E8924CE12F72D40000C5367 /* Messages.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = cheatSMS_Prefix.pch;
+				INFOPLIST_FILE = "cheatSMS-Info.plist";
+				PRODUCT_NAME = cheatSMS;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = cheatSMS_Prefix.pch;
+				INFOPLIST_FILE = "cheatSMS-Info.plist";
+				PRODUCT_NAME = cheatSMS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "cheatSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cheatSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
